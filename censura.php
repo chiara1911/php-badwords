@@ -16,6 +16,8 @@ $badwords= $_GET["badwords"];
     <header></header>
     <main>
     <h1> <?php echo "$name $badwords" ?></h1>
+
+    <span></span>
     </main>
     <footer></footer>
 </body>
