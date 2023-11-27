@@ -1,3 +1,10 @@
+
+<?php
+$name= $_GET["paragraph"];
+$badwords= $_GET["badwords"];
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,6 +13,10 @@
     <title>censurato</title>
 </head>
 <body>
-    
+    <header></header>
+    <main>
+    <h1> <?php echo "$name $badwords" ?></h1>
+    </main>
+    <footer></footer>
 </body>
 </html>
