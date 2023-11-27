@@ -1,8 +1,8 @@
 
 <?php
-$name= $_GET["paragraph"];
-$badwords= $_GET["badwords"];
-
+$paragraph= $_GET["paragraph"];
+$badword= $_GET["badword"];
+$censured = str_replace($badword,'***', $paragraph);
 ?>
 
 <!DOCTYPE html>
@@ -15,7 +15,8 @@ $badwords= $_GET["badwords"];
 <body>
     <header></header>
     <main>
-    <h1> <?php echo "$name $badwords" ?></h1>
+    <h1> <?php echo $paragraph ?></h1>
+    <h1><?php echo $censured ?></h1>
 
     <span></span>
     </main>
