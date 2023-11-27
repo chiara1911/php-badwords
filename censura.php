@@ -15,10 +15,10 @@ $censured = str_replace($badword,'***', $paragraph);
 <body>
     <header></header>
     <main>
-    <h1> <?php echo $paragraph ?></h1>
-    <h1><?php echo $censured ?></h1>
+    <span> <?php echo $paragraph ?></span>
+    <span><?php echo $censured ?></span>
 
-    <span></span>
+    <span><?php echo strlen($paragraph)?></span>
     </main>
     <footer></footer>
 </body>
