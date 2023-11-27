@@ -15,11 +15,13 @@
        
     
         <form action="censura.php" method="GET">
-    <input type="textarea" name="paragraph" size="150" class="text-area">
+
+<textarea  name="paragraph" class="text-area">
+</textarea>
     <input type="text" name="badword">
     <button type="submit">Invia</button>    
  </form>
-<h1><?php echo "$paragraph $badword"; ?></h1> 
+<!-- <h1><?php echo "$paragraph $badword"; ?></h1>  -->
     </main>
     <footer></footer>
     
